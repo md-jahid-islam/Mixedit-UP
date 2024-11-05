@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+
+.product_image{
+    overflow: hidden;
+}
+.product_image img{
+    filter: drop-shadow(5px 5px 10px #000000);
+    transition: all linear .6s;
+
+}
+.product_image:hover img{
+    transform: scale(1.1);
+}
+
+.animation_data{
+    animation: pop linear .4s;
+}
+
+@keyframes pop{
+    from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
